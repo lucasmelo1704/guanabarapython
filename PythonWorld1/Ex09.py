@@ -16,7 +16,7 @@ ten = number * 10
 print('>>> Multiplication Table <<<')
 print('{} x 1 = {}'.format(number, one))
 print('{} x 2 = {}'.format(number, two))
-print('{} x 3 = {}'.format(number, tree))
+print('{} x 3 = {}'.format(number, three))
 print('{} x 4 = {}'.format(number, four))
 print('{} x 5 = {}'.format(number, five))
 print('{} x 6 = {}'.format(number, six))
