@@ -2,10 +2,13 @@
 
 from math import sin, cos, tan, radians
 
-angulo = int(input('Enter a angule here: '))
-radian = radians(angulo)
-sine = sin(radian)
-cosine = cos(radian)
-tangent = tan(radian)
+angle = float(input('Enter the angle: '))
+rad = radians(angle)
 
-print('The sine is {:.2f}\nThe cosine is {:.2f}\nThe tangent is {:.2f}'.format(sine, cosine, tangent))
+sine = sin(rad)
+cosine = cos(rad)
+tangent = tan(rad)
+
+print('Sine: {:.2f}'.format(sine))
+print('Cosine: {:.2f}'.format(cosine))
+print('Tangent: {:.2f}'.format(tangent))
