@@ -8,6 +8,7 @@ student3 = input("Enter the name of student 3: ")
 student4 = input("Enter the name of student 4: ")
 
 students = [student1, student2, student3, student4]
+
 shuffle(students)
 
 print("Presentation order:")
